@@ -1,0 +1,68 @@
+.dotIcon {
+    font-size: 8px;
+    color: gray;
+    padding: 5px 2px;
+    cursor: pointer;
+}
+
+.dotIconActive {
+    color: cornflowerblue;
+}
+
+.carouselNav {
+    text-align: center;
+    position: absolute;
+    bottom: -15px;
+    z-index: 5;
+    left: 0;
+    right: 0;
+}
+
+.carouselNavInner {
+    bottom: 15px;
+}
+
+.carouselTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+    padding: 5px;
+    z-index: 5;
+    transform: translateY(-50%);
+}
+
+.arrowInnerRight {
+    right: 20px;
+}
+
+.arrowInnerLeft {
+    left: 20px;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carouselItem {
+    width: inherit;
+    height: inherit;
+
+}
+
+.carouselItems {
+    display: flex;
+    position: relative;
+}
+
+.arrowDisabled {
+    display: none;
+}

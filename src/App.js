@@ -58,7 +58,7 @@ const App = () => {
                 </Carousel.Item>
             </Carousel>
 
-            <Carousel width="600px" height="50%" infinite={true} autoplay={false}>
+            <Carousel width="600px" height="50%" infinite={true} autoplay={true}>
                 <Carousel.Item>
                     <div
                         className={clsx(classes.carouselBackground, classes.center)}
